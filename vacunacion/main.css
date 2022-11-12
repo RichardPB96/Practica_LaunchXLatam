@@ -1,0 +1,476 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+}
+.color__p{
+    color: #6D7B93;
+    font-size: 23px;
+}
+.color__title{
+    color: #224074;
+    font-weight: bold;
+}
+img{
+    width: 16px;
+    height: 16px;
+}
+/* HEADER-------------------------------------------------------------- */
+.container{
+    width: 100%;
+    height: 60px;
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    opacity: 0.9;
+}
+.logo{
+    width: 40px;
+    margin: 0;
+    padding-right:3em;
+    color: #123ad6;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.item-options{
+    color: #585252;
+    margin: 1rem 0rem 1rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+    padding: 5px 30px;
+    width: 80px;
+    vertical-align: middle;
+    transition-duration: 0.5s;
+    /* box-shadow: 0px 0px 1px rgba(0, 0, 0, 0); */
+}
+.item-options:hover{
+    color: #fff;
+    background: #3463db;
+    background: -webkit-linear-gradient(to left, #2848c6, #3858d6);
+    box-shadow: 0px 8px 8px rgb(0, 0, 0, 0.6);
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+/* scroll personalizado */
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: #021B79;
+}
+body::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    border-right: 2px solid #021B79;
+}
+/* Fight Virus With Vaccines----------------------------------------- */
+.contenedor0{
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+}
+.box1{
+    float: right;
+    width: 50%;
+    height: 80vh;
+    background: url(./image/pexels-evg-kowalievska-4066427.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+.box2{
+    width:50%;
+    height: 80vh;
+    float: left;
+}
+.box2__contenedor{
+    width: 450px;
+    margin: 0 auto;
+}
+h1{
+    color: #1F3E72;
+    font-size: 60px;
+    font-weight: 700;
+}
+.box__quality{
+    display: inline-block;
+}
+.navegacion{
+    width: 45%;
+    margin-top: 5vh;
+    margin-left: 20vh;
+}
+.navegacion ul{
+    list-style: none;
+}
+.navegacion__menu > li{
+    position: relative;
+    display: inline-block;
+}
+.navegacion__menu > li > a{
+    display: block;
+    text-decoration: none;
+    color: #1F3E72;
+    font-weight: bold;
+    font-size: 25px;
+}
+.navegacion__menu li a:hover{
+    color: #ce7d35;
+    transition: 0.3S;
+}
+.navegacion__submenu{
+    width: 190%;
+    position: absolute;
+    background: #f0f0f0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.navegacion__submenu li{
+    display: inline-block;
+}
+.navegacion__submenu li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #6e6d6d;
+    font-weight: bold;
+}
+.navegacion__submenu li p{
+    color: #021B79;
+    font-weight: bold;
+}
+.navegacion__menu li:hover .navegacion__submenu{
+    visibility: visible;
+    opacity: 0.9;
+}
+.decoration{
+    width: 100px;
+    vertical-align: middle;
+
+    color: #585252;
+    margin: 1rem 0rem 1rem 2rem;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+    
+    transition-duration: 0.5s;
+}
+.decoration:hover{
+    /* color: #fff; */
+    background: #3463db;
+    background: -webkit-linear-gradient(to left, #2848c6, #3858d6);
+    box-shadow: 0px 8px 8px rgb(0, 0, 0, 0.6);
+    border-radius: 9px;
+}
+/* LOGO------------------------------------------------------------------- */
+.box__logo{
+    width: 100%;
+}
+.img-sinovac{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/8/85/Sinovac_logo.svg);
+}
+.img-pfizer{
+    background: url(./logo/pfizer.png);
+}
+.img-moderna{
+    background: url(https://upload.wikimedia.org/wikipedia/commons/6/6a/Moderna_logo.svg);
+}
+.box__sizes{
+    width: 25%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.img-astrazeneca{
+    background: url(./logo/pngwing.com.png);
+    width: 24%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    display: inline-block;
+}
+/* WHY----------------------------------------- */
+.box__why{
+    width: 100%;
+    height: 40vh;
+    margin-top: 0;
+    overflow: hidden;
+}
+.box__why0{
+    float: left;
+    width: 32%;
+    padding-left: 100px;
+}
+.box__why0 h2{
+    color: #1F3E72;
+    font-size: 50px;
+    font-weight: bold;
+}
+.box__why0 p{
+    color: #585252;
+    font-size: 23px;
+}
+/* BOX INFO------------------------------------------------------------ */
+.box__info{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    top: 0;
+}
+.box__info div{
+    width: 18%;
+    height: 35vh;
+    margin: 10px;
+    transition-duration: 0.4s;
+}
+.box__info img{
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+}
+.box__info h3{
+    margin-left: 5px;
+    align-items: center;
+    width: 80%;
+    margin-top: 0;
+    color: #1F3E72;
+    font-size: 30px;
+    font-weight: bold;
+}
+.box__info p{
+    margin-left: 5px;
+    color: #585252;
+    font-size: 22px;
+    align-items: center;
+}
+.box__info div:hover{
+    box-shadow: 4px 4px 40px rgb(0, 0, 0, 0.6);
+    border-radius: 9px;
+}
+/* PREPARATIONS BEFORE VACCINE------------------------------------------- */
+.box__preparations{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.img-preparationsVaccine{
+    background: url(./image/pexels-antoni-shkraba-5214949.jpg);
+    width: 35%;
+    height: 90vh;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    box-sizing: border-box;
+}
+.preparationVaccine{
+    float: right;
+    width: 50%;
+}
+.preparationVaccine h2{
+    color: #1F3E72;
+    font-size: 50px;
+    font-weight: bold;
+}
+.preparationVaccine p{
+    width: 70%;
+    font-size: 25px;
+    color: #585252;
+}
+.preparationVaccine img{
+    width: 40px;
+    height: 40px;
+}
+/* SUBMENU2-------------------------------------------------------------- */
+.preparation__nav{
+    width: 45%;
+    height: 90%;
+    margin-left: 10vh;
+}
+.preparation__nav ul{
+    list-style: none;
+}
+.preparation__menu0 > li{
+    position: relative;
+    display: inline-block;
+}
+.preparation__menu0 > li > h3{
+    display: block;
+    text-decoration: none;
+    color: #1F3E72;
+    font-weight: bold;
+    font-size: 25px;
+}
+.preparation__menu0 li h3:hover{
+    color: #ce7d35;
+    margin: 20px;
+    transition: 0.3S;
+}
+.preparation__submenu0{
+    width: 150%;
+    position: absolute;
+    background: #f1f1f1;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s;
+}
+.preparation__submenu0 li{
+    display: inline-block;
+}
+.preparation__submenu0 p{
+    color: #585252;
+    font-weight: bold;
+    font-size: 20px;
+}
+.preparation__menu0 li:hover .preparation__submenu0 {
+    z-index: 100;
+    box-shadow: 4px 4px 40px rgb(0, 0, 0, 0.6);
+    visibility: visible;
+    opacity: 1;
+}
+/* BOX__END -------------------------------------------------------------- */
+.box__end{
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+.img-emergencyContact{
+    background: url(./image/pexels-antoni-shkraba-6749773.jpg);
+    width: 45%;
+    height: 120vh;
+    float: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.end__contenedor{
+    width: 50%;
+    height: 50vh;
+}
+.end__contenedor div{
+    width: 30%;
+    margin: 20px;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+.end__contenedor h3{
+    color: #123ad6;
+}
+.end__contenedor p{
+    color: #585252;
+}
+.end__contenedor img{
+    width: 40px;
+    height: 40px;
+}
+.end__contenedor button{
+    width: 150px;
+    height: 50px;
+    margin-left: 30px;
+    background: #123ad6;
+    color: #f0f0f0;
+    background-position: center;
+    transition-duration: 0.3s;
+}
+.end__contenedor div:hover{
+    box-shadow: 15px 8px 40px rgb(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.end__contenedor button:hover{
+    width: 170px;
+    height: 50px;
+    background: #021B79;
+    border-radius: 10px;
+}
+/* FOOTHER--------------------------------------------------------------- */
+
+footer{
+    width: 100%;
+    padding: 0px 0px 1px 0px;
+    background-color: #eef3ff;
+}
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 30px 40px;
+    margin: 0px 40px 0px 40px;
+}
+.box__footer .logo{
+    width: 180px;
+}
+.box__footer .terms{
+    max-width: 200px;
+    font-weight: 500;
+    color: #6D7B93;
+    font-size: 18PX;
+}
+.box__footer h3{
+    margin-bottom: 15px;
+    color: #244276;
+    font-weight: 700;
+}
+.box__footer a{
+    margin-top: 10px;
+    padding: 5px;
+    color: #6D7B93;
+    font-weight: 600;
+    text-decoration: none;
+}
+.box__footer a:hover{
+    opacity: 0.8;
+}
+.box__footer a .fab{
+    font-size: 20px;
+}
+.posicion{
+    float: left;
+}
+.box__copyright{
+    margin: 0px 40px 0px 40px;
+    padding: 0px 40px 0px 40px;
+    text-align: center;
+    overflow: hidden;
+}
+.box__copyright p{
+    color: #7a7a7a;
+    font-weight: 600;
+}
+.izquierda{
+    float: left;
+}
+.posicion__copy{
+    float: right;
+}
+.box__copyright__position a{
+    color: #6D7B93;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 15px;
+    padding-left: 20px;
+}
